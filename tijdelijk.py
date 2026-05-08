@@ -18,3 +18,6 @@ print(reclame_tekst4)
 # woorden onder elkaar
 for el in reclame_tekst4:
     print(el)
+    # geen hoofdletters in woorden onder elkaar
+for el in reclame_tekst4:
+    print(el.lower())
