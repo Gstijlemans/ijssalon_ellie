@@ -15,3 +15,6 @@ print(reclame_tekst3)
 # list van woorden
 reclame_tekst4 = reclame_tekst3.split()
 print(reclame_tekst4)
+# woorden onder elkaar
+for el in reclame_tekst4:
+    print(el)
