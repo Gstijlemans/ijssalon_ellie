@@ -6,24 +6,3 @@ prijzen = {
 aanbieding = prijzen["aardbei"] * 0.8
 reclame_tekst = f"Vandaag in de aanbieding: vanille-ijs, 1 liter – slechts € {aanbieding}"
 print(reclame_tekst)
-# wegwerken nullen
-reclame_tekst2 = reclame_tekst[:63]
-print(reclame_tekst2)
-# allemaal hoofdletters
-reclame_tekst3 = reclame_tekst2.upper()
-print(reclame_tekst3)
-# list van woorden
-reclame_tekst4 = reclame_tekst3.split()
-print(reclame_tekst4)
-# woorden onder elkaar
-for el in reclame_tekst4:
-    print(el)
-# geen hoofdletters in woorden onder elkaar
-for el in reclame_tekst4:
-    print(el.lower())
-# vanaf 5 hoofdletters anders kleine letters
-for el in reclame_tekst4:
-    if len(el) >= 5:
-        print(el.upper())
-    else:
-        print(el.lower())  
