@@ -12,3 +12,6 @@ print(reclame_tekst2)
 # allemaal hoofdletters
 reclame_tekst3 = reclame_tekst2.upper()
 print(reclame_tekst3)
+# list van woorden
+reclame_tekst4 = reclame_tekst3.split()
+print(reclame_tekst4)
