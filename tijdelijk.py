@@ -21,3 +21,9 @@ for el in reclame_tekst4:
     # geen hoofdletters in woorden onder elkaar
 for el in reclame_tekst4:
     print(el.lower())
+    # vanaf 5 hoofdletters anders kleine letters
+for el in reclame_tekst4:
+    if len(el) >= 5:
+        print(el.upper())
+    else:
+        print(el.lower())  
