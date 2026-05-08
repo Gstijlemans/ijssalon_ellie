@@ -9,3 +9,6 @@ print(reclame_tekst)
 # wegwerken nullen
 reclame_tekst2 = reclame_tekst[:63]
 print(reclame_tekst2)
+# allemaal hoofdletters
+reclame_tekst3 = reclame_tekst2.upper()
+print(reclame_tekst3)
